@@ -1,5 +1,5 @@
-.App {
-  text-align: center;
+.App{
+  margin-left: 1rem;
 }
 
 .App-logo {
@@ -35,4 +35,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar{
+  background-color: #61dafb;
+  
+}
+
+.navbar ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.miseEnForme{
+  width: 30%;
+  border: 1px solid rgb(47, 14, 165);
+  margin-bottom: 1rem;
+}
+
+.container{
+  padding: 1rem;
+}
+
+.form-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+input{
+  width: 450px;
+}
+.form-control{
+  border-radius: 0.5rem;
+  padding: 1rem;
 }
